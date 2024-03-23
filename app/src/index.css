@@ -24,12 +24,14 @@ html{
 }
 
 body {
-  margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  width: 100%;
+  justify-content: center;
+  align-items: baseline;
   min-height: 100vh;
   background-color: #242529;
+  margin: 0;
+  padding: 40px;
 }
 
 @media (prefers-color-scheme: light) {
